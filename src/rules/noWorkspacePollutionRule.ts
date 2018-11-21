@@ -18,7 +18,6 @@
 import { findImports, ImportKind } from "tsutils";
 import * as ts from "typescript";
 import * as Lint from "../index";
-import * as fs from "fs";
 
 const ruleName = "no-workspace-pollution";
 
